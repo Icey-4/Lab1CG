@@ -5,7 +5,7 @@ public class ChompForce : MonoBehaviour
     public int force;
     void Start()
     {
-        StartCoroutine(Push(3.5f));
+        StartCoroutine(Push(5.5f));
     }
     void Update()
     {

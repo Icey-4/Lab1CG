@@ -8,7 +8,7 @@ public class ChompPop : MonoBehaviour
     public GameObject plant;
     void Start()
     {
-        StartCoroutine(Poof(7));
+        StartCoroutine(Poof(9.3f));
     }
     void Update()
     {

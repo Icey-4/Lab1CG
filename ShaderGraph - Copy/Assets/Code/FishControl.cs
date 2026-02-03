@@ -12,8 +12,8 @@ public class FishControl : MonoBehaviour
     void Start()
     {
         turn = new Vector3(0, -180,0);
-        StartCoroutine(Shock(2));
-        StartCoroutine(K(4.5f));
+        StartCoroutine(Shock(4));
+        StartCoroutine(K(6.5f));
         mat.SetInt("_IsShock", 0);
     }
 
